@@ -44,6 +44,7 @@ header {
     display: inherit;
     margin: 0px 11px;
     color: white;
+    transition: all 0.5s;
 }
 
 .header-right li:hover {
