@@ -22,6 +22,7 @@ header {
     top: 0;
     z-index: 10;
 }
+
 .title {
     color: #f3432f;
 }
@@ -30,13 +31,17 @@ header {
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
 }
 .header-right {
     float: right;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+
+.header-right li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+	
 }
 .header-right li{
     float: left;
@@ -289,7 +294,7 @@ li a {
 .twitter {
     background-color: #AED6F1;
 	color: white;
-	
+
 }
 .instagram {
     background-color: #F1948A;
